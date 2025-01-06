@@ -7,11 +7,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sharedModelView="clr-namespace:SharedModelView"
+    xmlns:viewModel="clr-namespace:SharedModelView.ModelView"
     Title="Net7.0 Demo App"
     Width="1280"
     Height="900"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
+    <Window.DataContext>
+        <viewModel:ModelView />
+    </Window.DataContext>
     <Window.Resources>
         <sharedModelView:Countries x:Key="Countries" />
 

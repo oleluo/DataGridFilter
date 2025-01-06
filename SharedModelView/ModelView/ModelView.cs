@@ -29,9 +29,9 @@ namespace SharedModelView.ModelView
     {
         #region Public Constructors
 
-        public ModelView(int i = 10_000)
+        public ModelView()
         {
-            count = i;
+            count = 10_000;
             SelectedItem = count;
         }
 

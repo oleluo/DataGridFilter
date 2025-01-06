@@ -34,8 +34,6 @@ namespace DemoApp.Net7._0
                                 $"{AppDomain.CurrentDomain.FriendlyName}: {e.Exception.Message} {source}");
             };
 #endif
-
-            DataContext = new ModelView();
         }
 
         #endregion Public Constructors
